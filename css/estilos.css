@@ -1,3 +1,17 @@
 h1{
+    color: rgb(255, 0, 0);
+}
+
+h2{
     color: blue;
 }
+h3{
+    color: rgb(21, 255, 0);
+}
+h4{
+    color: rgb(255, 0, 221);
+}
+h5{
+    color: rgb(50, 76, 92);
+}
+

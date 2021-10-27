@@ -1,4 +1,4 @@
-const usuario = prompt("Ingresa su  usuario");
+/* const usuario = prompt("Ingresa su  usuario");
 const contrasenia = prompt("Ingrese su contraseña");
 
 const adminValido = ((usuario == "admin") && (contrasenia == "admin"));
@@ -15,5 +15,23 @@ if (adminValido) {
     alert("Usuario invalido , refresque la pagina y vuelva a intentarlo")
 
 }
+ */
 
 
+/* ------------------------------------------------------------------------------------ */
+
+
+
+
+let color = "";
+do {
+    color = prompt("Adivina de que color sera el Titulo2")
+} while (color.toLowerCase() != "azul")
+alert("Felicidades , el Titulo 2 es azul!")
+
+
+
+for (let i = 1; i < 6; i++) {
+    document.write("<h" + i + ">" + "Titulo" + i + "</h" + i + ">");
+
+}
