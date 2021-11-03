@@ -20,7 +20,7 @@ function PedirDatos(cantidad) {
     }
 
 
-   alert("El promedio de nivel es de " + niveles / cantidad); // aca muestro la lista de personas , y el promedio de nivel 
+   alert("El promedio de nivel es de " + niveles / cantidad); // aca muestro el promedio de nivel 
 }
 
 PedirDatos(3);// aca llamo a pedirdatos 3 veces 
